@@ -1,6 +1,6 @@
 package com.metacontrollerjava.spring.hints;
 
-import com.metacontrollerjava.api.input.input.ControllerInput;
+import com.metacontrollerjava.api.input.ControllerInput;
 import com.metacontrollerjava.api.output.ControllerOutput;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

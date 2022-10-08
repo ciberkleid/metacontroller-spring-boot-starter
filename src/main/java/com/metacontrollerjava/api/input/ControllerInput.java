@@ -1,4 +1,4 @@
-package com.metacontrollerjava.api.input.input;
+package com.metacontrollerjava.api.input;
 
 public record ControllerInput(Parent parent) {
 }

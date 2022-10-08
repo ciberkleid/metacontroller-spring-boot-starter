@@ -1,4 +1,4 @@
-package com.metacontrollerjava.api.input.input;
+package com.metacontrollerjava.api.input;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
