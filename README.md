@@ -9,7 +9,7 @@ Includes:
 The following shows how to use this library in your maven project.
 For guidance on how to use it in other types of projects, check the [library home page on JitPack](https://jitpack.io/#ciberkleid/metacontroller-spring-boot-starter).
 
-Add the JitPack repository to your pom.xml file:
+Add the [JitPack repository](https://jitpack.io/#ciberkleid/metacontroller-spring-boot-starter) to your pom.xml file:
 ```xml
 	<repositories>
 		<repository>
@@ -24,7 +24,7 @@ Add the dependency to your pom.xml file:
 	<dependency>
 	    <groupId>com.github.ciberkleid</groupId>
 	    <artifactId>metacontroller-spring-boot-starter</artifactId>
-	    <version>0.0.1</version>
+	    <version>0.0.1-SNAPSHOT</version>
 	</dependency>
 ```
 
