@@ -1,19 +1,17 @@
 # metacontroller-spring-boot-starter
 
-Spring Boot Starter for Metacontroller
+**This library includes:**
 
-Includes:
 1. Java objects representing input and output for controller implementations that leverage [Metacontroller](https://metacontroller.github.io/metacontroller)
-2. AOT compilation hints for the above Java objects
+2. Ahead of Time (AOT) compilation hints for the above Java objects, to support [native Spring Boot](https://spring.io/blog/2022/09/26/native-support-in-spring-boot-3-0-0-m5) applications
 
-The following shows how to use this library in your maven project.
-For guidance on how to use it in other types of projects, check the [library home page on JitPack](https://jitpack.io/#ciberkleid/metacontroller-spring-boot-starter).
+**Usage:**
 
-This library is published to [JitPack maven repo]()
+This library is published to [JitPack maven repo](https://jitpack.io/#ciberkleid/metacontroller-spring-boot-starter).
 
-### Usage 
+Example usage for Maven applications:
 
-Add the [JitPack repository](https://jitpack.io/#ciberkleid/metacontroller-spring-boot-starter) to your pom.xml file:
+Add the JitPack repository to your pom.xml file.
 ```xml
 	<repositories>
 		<repository>
@@ -32,7 +30,8 @@ Add the dependency to your pom.xml file.
 	</dependency>
 ```
 
-TO-DO:
+**TO-DO:**
+
 1. Enhance api package objects to cover more of the complete types. 
 See [https://github.com/metacontroller/metacontroller/blob/99bca2fbe1c5fa20fee016dffd5856761ee90cc3/pkg/apis/metacontroller/v1alpha1/types.go](https://github.com/metacontroller/metacontroller/blob/99bca2fbe1c5fa20fee016dffd5856761ee90cc3/pkg/apis/metacontroller/v1alpha1/types.go)
 2. Separate api package into a dedicated `metacontroller-java` library,
